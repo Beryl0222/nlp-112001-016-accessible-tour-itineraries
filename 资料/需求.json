@@ -1,0 +1,20 @@
+[
+  {
+    "id": "r1",
+    "group": "低年级同行组",
+    "locale": "zh-HK",
+    "text": "两部轮椅只有一部摺得埋。小朋友一定要同带队老师一齐去。"
+  },
+  {
+    "id": "r2",
+    "group": "低年级同行组",
+    "locale": "zh",
+    "text": "能短距离步行，有台阶要有扶手。讲解想在下午一点到三点开始。"
+  },
+  {
+    "id": "r3",
+    "group": "家长观察组",
+    "locale": "en",
+    "text": "A short walk is fine. A lift would be preferable, but we can take steps with rails."
+  }
+]

@@ -1,0 +1,14 @@
+{
+  "name": "accessible-tour-itineraries",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "研学接待文本",
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "test": "node --test",
+    "materials": "node materials.js"
+  }
+}

@@ -9,6 +9,7 @@
   },
   "scripts": {
     "test": "node --test",
-    "materials": "node materials.js"
+    "materials": "node materials.js",
+    "report": "node bin/report.js"
   }
 }

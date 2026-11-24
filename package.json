@@ -3,12 +3,26 @@
   "private": true,
   "version": "0.1.0",
   "type": "module",
-  "description": "研学接待文本",
-  "engines": {
-    "node": "22.x"
+  "main": "index.js",
+  "exports": {
+    ".": "./index.js",
+    "./*.js": "./*.js",
+    "./*": "./*.js"
+  },
+  "bin": {
+    "tour-agency": "./cli.js"
   },
   "scripts": {
     "test": "node --test",
-    "materials": "node materials.js"
+    "materials": "node materials.js",
+    "start": "node server.js",
+    "report": "node cli.js report",
+    "brief": "node cli.js brief",
+    "parents": "node cli.js parents",
+    "scenario": "node cli.js scenario"
+  },
+  "description": "研学接待文本",
+  "engines": {
+    "node": "22.x"
   }
 }
